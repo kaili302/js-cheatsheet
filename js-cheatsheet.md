@@ -88,9 +88,10 @@ firstMethod()
    .then(secondMethod)
    .then(thirdMethod);
 
-```
-
-
 Promise.resolve(123)
 .then(data => {data*data}) // implicity chaining
 .then(data => {console.log(data)})
+```
+
+
+
